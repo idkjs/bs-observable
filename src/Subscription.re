@@ -1,2 +1,2 @@
 type t;
-[@bs.send] external unsubscribe : t => unit = "";
+[@bs.send] external unsubscribe : t => unit = "unsubscribe";
